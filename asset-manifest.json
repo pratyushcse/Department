@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Department/static/css/main.526a2808.css",
+    "main.js": "/Department/static/js/main.71a5cbe4.js",
+    "static/js/453.ed3810f9.chunk.js": "/Department/static/js/453.ed3810f9.chunk.js",
+    "static/media/Computer_Hardware.jpg": "/Department/static/media/Computer_Hardware.2ee44c617c33a855666d.jpg",
+    "static/media/Computer_Network.jpg": "/Department/static/media/Computer_Network.3b86f75e268400e40654.jpg",
+    "static/media/Python.jpg": "/Department/static/media/Python.45e30f770bfaa63b38fe.jpg",
+    "static/media/DBMS.jpg": "/Department/static/media/DBMS.99b1e1fb8e3d258ea3f4.jpg",
+    "static/media/BHOOVIKA_SALIAN.jpg": "/Department/static/media/BHOOVIKA_SALIAN.6a2c818c4ea1255a778b.jpg",
+    "static/media/LEELAVATHI_R.png": "/Department/static/media/LEELAVATHI_R.e42c329fc056147d5376.png",
+    "static/media/PRADEEP_KUMAR_H_M.jpeg": "/Department/static/media/PRADEEP_KUMAR_H_M.4a944dab84ef97423778.jpeg",
+    "static/media/HOD.jpg": "/Department/static/media/HOD.cd5e0b25ca6c55090e9a.jpg",
+    "index.html": "/Department/index.html",
+    "main.526a2808.css.map": "/Department/static/css/main.526a2808.css.map",
+    "main.71a5cbe4.js.map": "/Department/static/js/main.71a5cbe4.js.map",
+    "453.ed3810f9.chunk.js.map": "/Department/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.526a2808.css",
+    "static/js/main.71a5cbe4.js"
+  ]
+}
