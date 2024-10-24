@@ -1,0 +1,54 @@
+.department {
+  padding: 20px;
+}
+
+.department-heading-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.department-title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.department-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.department-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.department-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.department-box.active {
+  transform: scale(1.05); /* Enlarge the box when active */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.department-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.department-paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+    

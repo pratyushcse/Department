@@ -1,0 +1,85 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Faculty.css */
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 300px; 
+  overflow: hidden;
+  margin-bottom: 20px; 
+}
+
+.slider-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #f0f0f0; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+  padding: 20px; 
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.slider-slide:hover {
+  background-color: #e0e0e0; /* Light color change on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.slider-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-image img {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 10px; 
+  object-fit: cover; 
+}
+
+.slider-info {
+  height: 150px;
+  padding-left: 50px; 
+  text-align: left; 
+}
+
+.slider-info h3 {
+  margin: 0;
+  font-size: 1.8rem; 
+  text-align: center; 
+}
+
+.slider-info p {
+  margin: 10px 0;
+  font-size: 1.2rem; 
+  text-align: center; 
+}
+
+.faculty-head {
+  padding: 20px;
+  background-color: rgb(235, 235, 235);
+  text-align: center;
+}
+
+/* Hover effect for table rows */
+tbody tr:hover {
+  background-color: #f9f9f9; /* Light color change on hover */
+  transform: scale(1.02); /* Slightly increase size on hover */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}

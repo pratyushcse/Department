@@ -1,0 +1,43 @@
+.sidebar {
+  width: 20vw;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 20px;
+  position: fixed; 
+  display: flex;
+  justify-content: center;
+  
+  top: 0;
+  left: 0;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active-link {
+  color: #007bff;
+  
+}
+
+
+.opt{
+font-size: 40px;}
